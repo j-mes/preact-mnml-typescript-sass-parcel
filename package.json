@@ -4,16 +4,31 @@
   "description": "An app stack that uses Preact with Typescript, Sass and Parcel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build src/index.html --no-source-maps",
+    "start": "parcel src/index.html --open"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/j-mes/preact-mnml-typescript-sass-parcel.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "James Loveridge",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/j-mes/preact-mnml-typescript-sass-parcel/issues"
   },
-  "homepage": "https://github.com/j-mes/preact-mnml-typescript-sass-parcel#readme"
+  "homepage": "https://github.com/j-mes/preact-mnml-typescript-sass-parcel#readme",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-standard-preact": "^1.1.6",
+    "eslint-plugin-prettier": "^3.1.4",
+    "parcel": "^2.0.0-beta.1",
+    "prettier": "^2.1.2",
+    "sass": "^1.29.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "preact": "^10.5.5",
+    "preact-router": "^3.2.1"
+  }
 }

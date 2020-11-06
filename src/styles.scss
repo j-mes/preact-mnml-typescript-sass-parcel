@@ -1,0 +1,21 @@
+:root {
+	--colour-white: #FFFFFF;
+	--colour-black: #000000;
+	--colour-grey-dark: #333333;
+	--colour-grey-medium: #666666;
+	--colour-grey-light: #CCCCCC;
+}
+
+body {
+	background-color: var(--colour-grey-dark);
+	color: var(--colour-grey-light);
+}
+
+header {
+	nav {
+		a {
+			color: var(--colour-white);
+			margin-right: 1rem;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "preact-mnml-typescript-sass-parcel",
+  "version": "1.0.0",
+  "description": "An app stack that uses Preact with Typescript, Sass and Parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-mes/preact-mnml-typescript-sass-parcel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-mes/preact-mnml-typescript-sass-parcel/issues"
+  },
+  "homepage": "https://github.com/j-mes/preact-mnml-typescript-sass-parcel#readme"
+}
